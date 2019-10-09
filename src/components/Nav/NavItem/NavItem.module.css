@@ -33,3 +33,11 @@
 a.Active span {
     display: block;
 }
+
+@media (max-width: 560px) {
+    .NavItem{
+        list-style-type: none;
+        height: 25px;
+        margin-right:0;
+    }
+}

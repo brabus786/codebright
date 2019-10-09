@@ -1,1 +1,27 @@
+.titleHome{
+    font-size:70px;
+    color:rgb(17, 21, 24);
+    line-height:1.029;
+    text-align:left;
+    padding:0 130px;
+    font-family:'Sofia Pro Semi';
+    font-weight:700;
+    max-width:850px;
+    margin:10px 0 90px 0;
+}
 
+@media(max-width: 1040px){
+    .titleHome{
+        padding: inherit;
+        max-width:inherit;
+        margin:30px;
+        font-size: 54px;
+    }
+}
+@media(max-width: 560px){
+    .titleHome{
+        margin: 0;
+        padding: 0 0 30px 0;
+        font-size: 36px;
+    }
+}

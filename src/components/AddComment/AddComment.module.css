@@ -27,3 +27,26 @@
 
 
 
+@media (max-width: 1300px) {
+    .inner{
+        width: 991px;
+    }
+}
+@media (max-width: 1040px) {
+    .inner{
+        width: 767px;
+    }
+}
+@media (max-width: 800px) {
+    .inner{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .comments_block{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

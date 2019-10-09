@@ -28,6 +28,35 @@
     height: 4px;
     border-radius: 50%;
     background-color: black;
-    top:13px;
+    top:9px;
     left: -10px;
+}
+
+@media(max-width:1040px){
+    .card ul{
+        width: 230px;
+    }
+}
+@media(max-width: 800px) {
+    .card{
+        width: 45%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .card ul{
+        width: auto;
+    }
+}
+@media(max-width: 560px){
+    .card{
+        width: 50%;
+    }
+}
+@media(max-width: 460px){
+    .card{
+        width: 100%;
+    }
+    .card ul{
+        max-width: inherit;
+    }
 }

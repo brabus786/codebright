@@ -30,3 +30,8 @@ footer {
     display: block;
 }
 
+@media(max-width: 560px){
+    .line{
+        flex-direction: column;
+    }
+}

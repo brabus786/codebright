@@ -6,6 +6,46 @@
 }
 .wrapComents{
     /*border:1px solid green;*/
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    column-count: 2;
+}
+.titleComentPage{
+    color:black;
+    font-size:48px;
+    font-weight:700;
+    line-height:1.2;
+    margin-top:15px;
+    margin-bottom:65px;
+}
+
+@media (max-width: 1300px){
+    .wrap{
+        width: 991px;
+    }
+}
+@media (max-width: 1040px){
+    .wrap{
+        width: 767px;
+    }
+}
+@media (max-width: 800px){
+    .wrap{
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
+@media (max-width: 800px){
+    .titleComentPage{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 480px){
+    .wrapComents{
+        column-count: 1;
+    }
 }

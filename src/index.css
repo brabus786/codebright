@@ -17,6 +17,7 @@ code {
   width: 1266px;
   /*border:1px solid red;*/
   margin: auto;
+  box-sizing: border-box;
 }
 .greenButton{
   border-radius: 3px;
@@ -32,3 +33,21 @@ code {
 }
 
 
+@media (max-width: 1300px){
+  .myContainer{
+    width: 991px;
+  }
+}
+@media (max-width: 1040px){
+  .myContainer{
+    width: 767px;
+  }
+}
+@media (max-width: 800px){
+  .myContainer{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+}

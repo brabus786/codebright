@@ -1,5 +1,5 @@
 .smal_container{
-    width: 772px;
+    max-width: 772px;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 100px;
@@ -39,5 +39,22 @@
 }
 .bottom_batton img{
     margin-right: 15px;
+}
+.titlePageComent{
+    color: black;
+    max-width:772px;
+    margin: auto;
+    font-size:48px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:60px;
+    margin-top:45px;
+}
+@media(max-width: 560px){
+    .titlePageComent{
+        font-size: 36px;
+        margin-bottom:30px;
+        margin-top:30px;
+    }
 }
 

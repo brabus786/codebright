@@ -9,3 +9,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 1300px) {
+    .inner{
+        width: 991px;
+    }
+}
+@media (max-width: 1040px) {
+    .inner{
+        width: 767px;
+    }
+    .wrap{
+        padding: 30px 0;
+    }
+}
+@media (max-width: 800px) {
+    .inner{
+        width: 100%;
+        flex-wrap: wrap;
+        padding-right: 15px;
+        padding-left: 15px;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+}

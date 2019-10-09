@@ -1,8 +1,9 @@
 .card{
-    width:50%;
+    width:100%;
     /*border:1px solid red;*/
     padding: 30px;
     box-sizing: border-box;
+    display: inline-block;
 }
 .inset{
     /*border:1px solid green;*/
@@ -16,6 +17,7 @@
     line-height: 1.2;
     font-size: 20px;
     font-weight: 400;
+    word-wrap: break-word;
     margin-bottom: 30px;
 }
 .short_review{
@@ -24,6 +26,7 @@
     font-weight: 400;
     color: #ADADAD;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 .read_more{
     color:black;
@@ -36,4 +39,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media(max-width: 1040px){
+    .card{
+        /*width:50%;*/
+    }
+}
+@media(max-width: 800px){
+    .card{
+        padding: 15px;
+    }
+}
+
+@media(max-width: 560px){
+    .card{
+        width:100%;
+        padding: 0;
+    }
 }

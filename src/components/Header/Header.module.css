@@ -10,3 +10,9 @@
 .wrapImg img{
     width: 120px;
 }
+
+@media(max-width: 1040px){
+    .properties_header{
+        min-height: 90px;
+    }
+}

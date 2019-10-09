@@ -51,7 +51,8 @@ class WriteComment extends Component {
                             <span>Back to Comments</span>
                         </Link>
                     </div>
-                    <TitlePage style={TitlePageComment} text={this.state.comment.title}/>
+                    {/*<TitlePage style={TitlePageComment} text={this.state.comment.title}/>*/}
+                    <h1 className={classes.titlePageComent}>{this.state.comment.title}</h1>
                     <WriteCommentText text={this.state.comment.text} />
                     <BackToBlock link="/comments" />
                 </div>

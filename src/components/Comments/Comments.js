@@ -49,7 +49,8 @@ class Comments extends Component {
 
         return (
             <div className={classes.wrap}>
-                <TitlePage style={TitlePageComment} text={TextTitle.Comments}/>
+                {/*<TitlePage style={TitlePageComment} text={TextTitle.Comments}/>*/}
+                <h1 className={classes.titleComentPage}>Comments</h1>
                 <div className={classes.wrapComents}>{comments}</div>
                 <BackToBlock link="/" />
             </div>

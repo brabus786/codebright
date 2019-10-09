@@ -5,6 +5,7 @@ import HomeImg from "../HomeImg/HomeImg";
 import AdvantageCards from "../AdvantageCards/AdvantageCards";
 import AddComment from "../AddComment/AddComment";
 import state from "../TitlePage/TitlePageText";
+
 import Footer from "../Footer/Footer";
 
 const TitlePageHome = {
@@ -16,14 +17,15 @@ const TitlePageHome = {
     fontFamily:'Sofia Pro Semi',
     fontWeight:'700',
     maxWidth:'850px',
-    margin:'10px 0 90px 0'
+    margin:'10px 0 90px 0',
 };
 
 const HomPage = () => {
     return (
         <div>
             <div className={'myContainer'}>
-                <TitlePage style={TitlePageHome} text={state.aboutUs}/>
+                {/*<TitlePage style={TitlePageHome} text={state.aboutUs}/>*/}
+                <h1 className={classes.titleHome}>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
             </div>
             <HomeImg/>
             <AdvantageCards/>
