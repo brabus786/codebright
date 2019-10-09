@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-        <BrowserRouter basename="/build">
+        <BrowserRouter basename="/codebright/build/">
             <Header/>
             <Body/>
             <Footer/>
