@@ -10,10 +10,10 @@ const Body = () => {
     return (
         <div className="Body">
             <Switch>
-                <Route path='/codebright/build/' exact component={HomPage} />
-                <Route path='/codebright/build/comments' exact component={Comments} />
-                <Route path='/codebright/build/comments/:id' exact component={WriteComment} />
-                <Route path='/codebright/build/' component={HomPage} />
+                <Route path='/' exact component={HomPage} />
+                <Route path='/comments' exact component={Comments} />
+                <Route path='/comments/:id' exact component={WriteComment} />
+                <Route path='/' component={HomPage} />
             </Switch>
         </div>
     )
