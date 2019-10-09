@@ -1,5 +1,5 @@
 import React from 'react';
-import homeImg from './../../assets/img/homeImg.png';
+import homeImg from '../../assets/img/homeImg.png';
 import classes from './HomeImg.module.css';
 
 const HomeImg = () =>{
