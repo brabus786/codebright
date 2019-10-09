@@ -1,0 +1,11 @@
+.wrap{
+    width: 100%;
+    background-color: #F7F7F7;
+    padding: 115px 0;
+}
+.inner{
+    width: 1005px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

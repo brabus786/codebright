@@ -1,0 +1,33 @@
+.card{
+    /*border:1px solid red;*/
+}
+.card p{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 1;
+    font-weight: 700;
+}
+.card ul{
+    padding-left:12px;
+    max-width: 250px;
+}
+.card ul li{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(16, 20, 23);
+    line-height: 1.25;
+    list-style-type: none;
+    position: relative;
+}
+.card ul li:before {
+    position: absolute;
+    content: " ";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+    top:13px;
+    left: -10px;
+}

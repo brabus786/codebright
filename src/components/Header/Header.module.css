@@ -1,0 +1,12 @@
+.properties_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 164px;
+}
+.wrapImg{
+    display: inline-block;
+}
+.wrapImg img{
+    width: 120px;
+}

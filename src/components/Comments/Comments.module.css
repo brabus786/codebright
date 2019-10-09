@@ -1,0 +1,11 @@
+.wrap{
+    width: 1006px;
+    margin: auto;
+    padding-bottom: 100px;
+    /*border:1px solid red;*/
+}
+.wrapComents{
+    /*border:1px solid green;*/
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.comments_block{
+    background-color: #1D1E25;
+    padding-top: 140px;
+    padding-bottom: 145px;
+}
+.inner{
+    width: 1005px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    max-width: 245px;
+    line-height: 0.909;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.underline{
+    width: 70px;
+    height: 5px;
+    display: block;
+    background-color: #F9D10D;
+}
+
+
+
