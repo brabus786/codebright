@@ -1,23 +1,12 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import TitlePage from "../TitlePage/TitlePage";
 import WriteCommentText from "./WriteCommentText/WriteCommentText";
 import classes from './WriteCommentsStyle.module.css';
 import arrow from './../../assets/img/VectorSmartObject14.png'
 import BackToBlock from "../BackToBlock/BackToBlock";
 
 
-const TitlePageComment = {
-    color: 'black',
-    maxWidth: '772px',
-    margin: 'auto',
-    fontSize: '48px',
-    fontWeight: '700',
-    lineHeight: '1.2',
-    marginBottom: '60px',
-    marginTop: '60px'
-};
 
 
 class WriteComment extends Component {
@@ -47,11 +36,10 @@ class WriteComment extends Component {
                 <div className={classes.smal_container}>
                     <div className={classes.wrap}>
                         <Link className={classes.top_batton} to="/comments">
-                            <img src={arrow}/>
+                            <img src={arrow} alt="arrow"/>
                             <span>Back to Comments</span>
                         </Link>
                     </div>
-                    {/*<TitlePage style={TitlePageComment} text={this.state.comment.title}/>*/}
                     <h1 className={classes.titlePageComent}>{this.state.comment.title}</h1>
                     <WriteCommentText text={this.state.comment.text} />
                     <BackToBlock link="/comments" />

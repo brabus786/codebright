@@ -1,19 +1,11 @@
 import React, {Component} from 'react';
 import classes from './Comments.module.css';
 import axios from 'axios';
-import TextTitle from "../TitlePage/TitlePageText";
-import TitlePage from "../TitlePage/TitlePage";
+
 import BackToBlock from "../BackToBlock/BackToBlock";
 import BlockComments from "../BlockComments/BlockComments";
 
-const TitlePageComment = {
-    color: 'black',
-    fontSize: '48px',
-    fontWeight: '700',
-    lineHeight: '1.2',
-    marginTop: '15px',
-    marginBottom: '140px'
-};
+
 
 class Comments extends Component {
     state = {

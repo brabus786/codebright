@@ -10,7 +10,7 @@ const BackToBlock = (props) =>{
 
             <div className={classes.wrap_bottom}>
                 <Link className={classes.bottom_batton} to={props.link}>
-                    <img src={arrow}/>
+                    <img src={arrow} alt="arrow" />
                     <span>Back to Comments</span>
                 </Link>
             </div>

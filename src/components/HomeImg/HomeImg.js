@@ -5,7 +5,7 @@ import classes from './HomeImg.module.css';
 const HomeImg = () =>{
     return(
         <div className={classes.wrapImg}>
-            <img src={homeImg} alt="img"/>
+            <img src={homeImg} alt="img" />
         </div>
     )
 };

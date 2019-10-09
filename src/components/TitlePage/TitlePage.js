@@ -1,5 +1,4 @@
 import React from 'react';
-import classes from "./TitlePage.module.css";
 
 
 const TitlePage = (props) => {

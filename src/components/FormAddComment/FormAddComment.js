@@ -52,8 +52,9 @@ class FormAddComment extends Component {
         if(this.state.error) classList.push(classes.Error);
         return (
             <form action="/" className={classList.join(" ")} onSubmit={this.handleSubmit}>
-                <input placeholder='Title' value={this.state.title.value} type="text" onChange={e => this.handleChange(e, 'title')}/>
+                <input aria-label="comment title" placeholder='Title' value={this.state.title.value} type="text" onChange={e => this.handleChange(e, 'title')}/>
                 <textarea
+                    aria-label="Text"
                     placeholder='Your comment'
                     onChange={e => this.handleChange(e, 'text')}
                     value={this.state.text.value}
