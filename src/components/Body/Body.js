@@ -15,9 +15,6 @@ const Body = () => {
                 <Route path='/codebright/build/comments/:id' exact component={WriteComment} />
                 <Route path='/codebright/build/' component={HomPage} />
             </Switch>
-            {/*<HomPage/>*/}
-            {/*<WriteComment/>*/}
-            {/*<Comments/>*/}
         </div>
     )
 };
